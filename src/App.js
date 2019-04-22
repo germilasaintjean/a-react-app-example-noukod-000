@@ -12,7 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          {moment().format('Now')}
+        <p>Now<p/>
+         {moment().format('MMMM Do YYYY, h:mm:ss a')}
         </header>
         <p className="App-intro">
           In React apps, we write JSX - it looks like HTML, and uses a lot HTML syntax.
