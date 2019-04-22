@@ -12,7 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-         {moment().format('MMMM Do YYYY') Now}
+         {moment().format('MMMM Do YYYY')}
+         Now
 
 
         </header>
